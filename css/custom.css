@@ -168,3 +168,12 @@ h6::before {
 .menus_items .menus_item:nth-child(2) .menus_item_child {
   left: -125px;
 }
+
+html {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
