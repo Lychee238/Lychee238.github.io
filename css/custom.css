@@ -169,11 +169,12 @@ h6::before {
   left: -125px;
 }
 
-html {
+/* 网站黑白 公祭日用 */
+/* html {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
-}
+} */
