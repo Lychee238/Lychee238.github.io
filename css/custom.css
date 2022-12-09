@@ -210,3 +210,19 @@ h6::before {
 [data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {
   text-shadow: 0 0 2px var(--theme-color) !important;
 }
+
+/* 评论区 */
+#veditor {
+  background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp); /* 修改自己喜欢的图片链接即可 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgba(255, 255, 255, 0);
+  resize: vertical
+}
+
+/* 防止图片遮住输入框文字 */
+#veditor:focus{
+background-position-y: 200px;
+transition: all 0.2s ease-in-out 0s;
+}
